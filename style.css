@@ -1,0 +1,356 @@
+body {
+  background-color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.my-image {
+	background-image: url("img/cars-html5.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 430px;
+}
+
+
+.z {
+ color:white;}
+.x{color:grey;} 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+li{ float:left; }
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: grey;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.bt {
+  position: absolute;
+  top: 90%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: Transparent;
+  color: white;
+  font-size: 14px;
+  padding: 25px 35px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+ .bt:hover {
+  background-color: black;
+}
+
+figure {
+	padding: 0.5em;
+	margin: 2em 0.5em 1em;
+	
+	width: 35%;
+	border: 2px solid black;
+}
+.c {
+  color:white;
+  text-align: right;
+} 
+
+.response {
+  position: relative;
+  width:32%;
+  float:left;
+  padding: 0px 10px 75px 20px;
+}
+
+.camaro {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.response:hover .camaro {
+  opacity: 0.3;
+}
+
+.response:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 14px 30px;
+}
+.bt2{
+  color:white; }
+
+.response2 {
+  position: relative;
+  width:25.5%;
+ float:left;
+ padding: 10px 50px 85px 50px;
+}
+
+.ford {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.response2:hover .ford {
+  opacity: 0.5;
+}
+
+.z2{
+float:right; }
+.response2:hover .middle2 {
+  opacity: 1;
+}
+
+.text2 {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 14px 30px;
+}
+.bt3{
+  color:white; }
+
+.response3 {
+  position: relative;
+  width:27%;
+ float:left;
+padding: 0px 50px 100px 60px; 
+ width: 25%;
+}
+
+.dodge {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle3 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.response3:hover .dodge {
+  opacity: 0.3;
+}
+
+.response3:hover .middle3 {
+  opacity: 1;
+}
+
+.text3 {
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  padding: 14px 30px;
+}
+.bt4{
+  color:white; }
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   height:50px;
+}
+
+.responsec {
+  position: relative;
+  width:32%;
+  float:left;
+  padding: 0px 10px 75px;
+}
+.responsef{
+  position: relative;
+  width:26%;
+  float:left;
+  padding: 0px 10px 75px;
+}
+.responsed{
+  position: relative;
+  width:25%;
+  float:left;
+  padding: 0px 0px 10px 75px;
+}
+
+.camaro2 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+.y{ color:gold;
+}
+
+.camaroint{
+width:200px;
+height:100px;
+float:left;
+padding: 0px 20px; 
+
+}
+
+.lol{
+padding: 100px 50px 75px 60px; 
+}
+
+
+.int{
+color:red;}
+.pic{
+color:white;
+}
+hr {
+	margin: 1em;
+	border: 1px solid white;
+	clear: both;}
+.pic2{
+color:white;
+float: right; 
+font-style: italic;
+}
+.lol2{
+padding: 50px 50px 75px 60px; 
+}
+.xx{
+padding:  200px 50px 100px 60px;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+
+}
+
+input[type=submit] {
+    display: block;
+	background-color: white;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+
+}
+
+input[type=submit]:hover {
+    background-color: gold
+
+}
+.kk{
+padding:0px 0px 150px ;}
+.r{
+float:right}
+
+
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 200px;
+
+
+
+ 
+}
+.whole{
+padding:0px 0px 300px 0px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+color:white;
+}
